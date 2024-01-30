@@ -1,8 +1,10 @@
-import pandas as pd
+import time
 
 def start():
-  df = pd.Dataframe([0,1,2,3,4,5])
-  print("service is running...")
+  print("service is started.")
+  while True:
+    print("service is running...")
+    time.sleep(10)
 
 
 if __name__ == "__main__":
